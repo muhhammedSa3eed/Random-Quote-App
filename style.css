@@ -1,0 +1,88 @@
+body {
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 253, 97, 1) 100%
+  );
+}
+.font-h2 {
+  font-family: "Bungee Tint", sans-serif;
+}
+.font-h4 {
+  font-family: "Delius Swash Caps", cursive;
+}
+.font-quote {
+  font-family: "Delius Swash Caps", cursive;
+}
+.font-author {
+  font-family: "DynaPuff", system-ui;
+}
+.font-title {
+  font-family: "DM Serif Text", serif;
+}
+.btn-linear {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.bg-navigate {
+  background-color: rgba(0, 0, 255, 0.41);
+}
+.h-300px {
+  min-height: 300px;
+}
+.mm-bottom {
+  margin-bottom: -100px;
+}
+button {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(206, 253, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.h-80 {
+  height: 80%;
+}
+.h-20 {
+  height: 20%;
+}
+.quote-color {
+  color: #f33d00;
+}
+.author-color {
+  color: rgb(1 40 233);
+}
+.title-color {
+  color: #550ebf;
+}
+.border-dashed {
+  border: 5px dashed tomato !important;
+}
+.first::after {
+  content: "";
+  position: absolute;
+  right: -43px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: #971359;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+@media (max-width: 992px) {
+  .first::after {
+    display: none;
+  }
+}
